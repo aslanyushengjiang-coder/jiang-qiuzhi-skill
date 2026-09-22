@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0-rc.3",
+  "date": "2026-09-22",
+  "originals": [
+    {
+      "file": "join.qq.com.md",
+      "bytes": 5824,
+      "sha256": "60c6dc46bd86cf41a2dd2ff12cd8af7f578d12b39206056527c9742e9ad3609a",
+      "identical": true
+    },
+    {
+      "file": "web-access-Skill文档原文.md",
+      "bytes": 18720,
+      "sha256": "f92038754a08a46d6410f7fae4b58efccf3f6111e13ffa8fcd9931c66f99ca97",
+      "identical": true
+    },
+    {
+      "file": "腾讯校招网申代填-实战经验.md",
+      "bytes": 24121,
+      "sha256": "bce13c353fa8bb322998879233edafd2de76bfacecba427ce16f4424e75da6f7",
+      "identical": true
+    }
+  ],
+  "dependency_hash_files": 14,
+  "node_syntax_files": 6,
+  "skill_structure": "passed",
+  "relocated_install_path": "passed",
+  "site_match_tencent": "passed",
+  "tamper_detection": "passed",
+  "browser_filling_this_update": "not_run",
+  "source_experience": "user_provided_record_not_retested",
+  "workbuddy_discovery_in_UI": "not_tested"
+}

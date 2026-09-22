@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-rc.3",
+  "algorithm": "SHA256",
+  "files": {
+    "references/web-autofill/examples/4-腾讯网申-批量代填.js": "894ccdf2b721b2a6f235e4c3cab6e69bd6e83d900038640b66743573c872177f",
+    "references/web-autofill/originals/join.qq.com.md": "60c6dc46bd86cf41a2dd2ff12cd8af7f578d12b39206056527c9742e9ad3609a",
+    "references/web-autofill/originals/web-access-Skill文档原文.md": "f92038754a08a46d6410f7fae4b58efccf3f6111e13ffa8fcd9931c66f99ca97",
+    "references/web-autofill/originals/腾讯校招网申代填-实战经验.md": "bce13c353fa8bb322998879233edafd2de76bfacecba427ce16f4424e75da6f7",
+    "vendor/web-access/SKILL.md": "f92038754a08a46d6410f7fae4b58efccf3f6111e13ffa8fcd9931c66f99ca97",
+    "vendor/web-access/references/cdp-api.md": "38f853ce21ad694aafce38efc166e4d7812820f5bd2894f109a10e9f9e0e6092",
+    "vendor/web-access/references/migration-2.5.3.md": "aa7aec6c623171c932bd368966e426b5ad0752f24c0bfc7981b1460f4650c34c",
+    "vendor/web-access/references/site-patterns/join.qq.com.md": "60c6dc46bd86cf41a2dd2ff12cd8af7f578d12b39206056527c9742e9ad3609a",
+    "vendor/web-access/scripts/browser-discovery.mjs": "f89a2a1f09fac91c376f64ca85de2a5c9dc2eb2f37ffc70dd0d2190ff9a03402",
+    "vendor/web-access/scripts/cdp-proxy.mjs": "6238e2273525afc0b447be45adfd832e57e92c5a1e49e52b1dcbdf151c78b6ff",
+    "vendor/web-access/scripts/check-deps.mjs": "71e2dbafe8bd03aa231cebdfde968fc0f14095b5e02dd643074228f4e6851ac2",
+    "vendor/web-access/scripts/find-url.mjs": "c67c92a178d4ff6248be6341c96daa18936e5d3f6fb1a840e3e8753a69d528ad",
+    "vendor/web-access/scripts/match-site.mjs": "afa955642645661981ba6ed323a8bd4e0a222974c56ae06318bbf4e459283c70",
+    "vendor/web-access/templates/config.env.template": "7e3b7b07bf7792d3e97137f8d7428f15cd4d41c3e03e6788fe36b9d03674c29b"
+  }
+}

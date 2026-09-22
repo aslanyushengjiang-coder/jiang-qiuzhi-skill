@@ -6,7 +6,7 @@ description: >-
   模拟面试或面试复盘时使用。复用已知资料，按当前任务进入对应模块；只写真实经历，
   先核实岗位再推荐，网申只代填草稿并在提交前停下。联网和浏览器依赖宿主授权能力。
 metadata:
-  version: 1.0.0-rc.2
+  version: 1.0.0-rc.5
   display-name: Jiang-qiuzhi-skill
 ---
 
@@ -38,8 +38,8 @@ python <SKILL_DIR>/scripts/jobctl.py --data-dir <WORKSPACE>/jiang-qiuzhi-data in
 |---|---|---|
 | 找岗位、扩大机会范围 | [画像](references/onboarding.md)、[找岗](references/discovery.md) | 机会总表、来源链接、核验时间、缺项及检索覆盖 |
 | 筛秋招表、几千条岗位 | [批量筛表](references/batch-import.md)、[资格与匹配](references/matching.md) | 全量初筛、重复/异常记录、排除原因、优先核实清单 |
-| 诊断、STAR改写、多方向简历 | [改简历](references/tailoring.md)、[导出](references/resume-export.md) | JD证据诊断、改前改后、缺项清单、版本表、可编辑文件与已校验PDF |
-| 自动填网申 | [代填](references/autofill.md) | 逐岗表单记录、上传版本核对、阻塞原因、待本人提交清单 |
+| 诊断、STAR改写、多方向简历 | [改简历](references/tailoring.md)、[黄金对标参考](references/golden-resumes/使用规则.md)、[导出](references/resume-export.md) | JD证据诊断、改前改后、缺项清单、版本表、可编辑文件与已校验PDF |
+| 自动填网申 | [代填](references/autofill.md)、[WorkBuddy 浏览器填写](references/web-autofill/接入与复用.md) | 逐岗表单记录、上传版本核对、阻塞原因、待本人提交清单 |
 | 看进度、安排笔试面试 | [进度](references/applications.md) | 已投/草稿分开、日期与时区明确、当日待办 |
 | 模拟面试、真实面试复盘 | [面试](references/interview.md) | 一次一题、一次一个追问、反馈、复练计划 |
 
@@ -65,6 +65,14 @@ python <SKILL_DIR>/scripts/jobctl.py --data-dir <WORKSPACE>/jiang-qiuzhi-data in
 先交付用户需要的文件或判断，再说明：使用的资料/版本、完成范围、证据与时间、待确认项、
 失败和能力降级。分别统计“已发现、已核实、已填草稿、本人已提交”，不得混用。
 输出本轮实际结果，不只描述未来能做什么。实际未执行的测试只能标为待测。
+
+## WorkBuddy 直接填写网申（内置 web-access）
+
+网申任务优先读取 [接入与复用](references/web-autofill/接入与复用.md)，按其中路径调用随包携带的 web-access，使用当前 WorkBuddy 模型；腾讯校招同时加载三份原始文档和站点经验。无需先安装其他填表插件。其他宿主依照实际工具权限执行，不因附带脚本而绕过限制。原始示例资料不作为用户默认答案。
+
+## Resume Pro 插件接口（实验功能）
+
+用户要导入插件资料、切换模板或通过本地接口填写网页时，先读 [Resume Pro 接口](references/resume-pro-bridge.md)。原版插件不等于已接通接口；必须核验实验版、配对和现场填写结果。
 
 ## 其他资源
 

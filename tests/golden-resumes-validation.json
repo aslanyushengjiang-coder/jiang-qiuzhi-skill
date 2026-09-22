@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "case": "01-产品策划与增长-脱敏原文",
+      "source_sha256": "e08fd4e1da6946a519149fa9bcd63954426b8eba7dd77cbaa93c895e87d8abb8",
+      "text_source_sha256": "d381702bfdc349d0336863941bbaf14cb4fd74387433e9d17c4145ada21d8723",
+      "redacted_text_sha256": "b0e484c8d0665fcd85ddec9c671c7a55a19d338351a657b3a2c7e5106d7af5b4",
+      "md_non_sensitive_characters_unchanged": true,
+      "pdf_pages": [
+        {
+          "page": 1,
+          "business_text_exact_ignoring_pdf_whitespace": true
+        }
+      ],
+      "portrait_removed": true,
+      "privacy_scopes": [
+        "姓名",
+        "电话",
+        "邮箱"
+      ],
+      "business_metrics_preserved": true
+    },
+    {
+      "case": "02-后端开发与项目表达-脱敏原文",
+      "source_sha256": "2a6d581f2a527d947e5ee16b22318b5cdb118ab900775ef1938ed48c3a11e01f",
+      "text_source_sha256": "71f71d5f8c86b87c67128d614a239287e59470ff021e7d178d49512ab290b7a7",
+      "redacted_text_sha256": "d5b7a2ba9f1d5a19ec8fdeea2dcb94174640ad54357423e91d1116517aaa0358",
+      "md_non_sensitive_characters_unchanged": true,
+      "pdf_pages": [
+        {
+          "page": 1,
+          "business_text_exact_ignoring_pdf_whitespace": true
+        }
+      ],
+      "portrait_removed": false,
+      "privacy_scopes": [
+        "个人博客",
+        "个人账号",
+        "姓名",
+        "电话",
+        "邮箱"
+      ],
+      "business_metrics_preserved": true
+    }
+  ],
+  "workbuddy_live_test": "not_run",
+  "version": "1.0.0-rc.5",
+  "visual_checked": true,
+  "selected_cases": 2,
+  "excluded_research_case": true
+}
